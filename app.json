@@ -41,11 +41,21 @@
       "required": false,
       "value": "general"
     },
-    "QUESTION_SUBSTRING_BLACKLIST": {
-      "description": "Comma-separated list of strings which indicate a question containing any of these should be ignored.",
-      "required": false
-      "value": [
-        "seen here",
+    "START_ROUND_TRIGGER": {
+      "description": "Use this to replace the default - jeopardy me - to start a round.",
+      "required": false,
+      "value": "jeopardy me"
+    },
+    "ANSWER_TRIGGER": {
+      "description": "Use this to end the round and display the answer.",
+      "required": false,
+      "value": "answer"
+    }
+    "QUESTION_SUBSTRING_BLACKLIST": { 
+      "description": "Comma-separated list of strings which indicate a question containing any of these should be ignored.", 
+      "required": false 
+      "value": [ 
+        "seen here", 
         "[audio clue]" 
       ]
     }
