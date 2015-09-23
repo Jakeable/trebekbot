@@ -194,7 +194,7 @@ end
 # (I don't care if there's no question mark)
 # 
 def is_question_format?(answer)
-  answer.gsub(/[^\w\s]/i, "").match(/^(what|whats|where|wheres|who|whos) /i)
+  answer.gsub(/[^\w\s]/i, "").match(/^(what|whats|where|wheres|who|whos|when|whens) /i)
 end
 
 # Checks if the user answer matches the correct answer.
